@@ -1,0 +1,29 @@
+:root{
+    --color1: #fccb90;
+    --color2: #f68084;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+}
+.animation{
+    border: 15px solid transparent;
+    border-top-color: var(--color1);
+    border-bottom-color: var(--color2);
+    border-radius: 50%;
+    margin: 100px auto 0;
+    width: 350px;
+    height: 350px;
+}
+.animation{
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

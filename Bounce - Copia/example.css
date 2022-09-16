@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    background-color: #e1e1e1;
+}
+img{
+  width: 15vw;
+  animation: bounce 1.1s both;
+}
+
+@keyframes bounce {
+  0%{
+    transform: translateY(-500px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38%{
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55%{
+    transform: translateY(-65px);
+    animation-timing-function: ease-in;
+  }
+  72%{
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  81%{
+    transform: translateY(-28px);
+    animation-timing-function: ease-in;
+  }
+  90%{
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  95%{
+    transform: translateY(-9px);
+    animation-timing-function: ease-in;
+  }
+  100%{
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+}

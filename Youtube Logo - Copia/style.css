@@ -1,0 +1,36 @@
+body{
+    background-color: #333;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.logo{
+    background-color: red;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border-radius: 50% / 10%;
+    color: white;
+    text-indent: .1em;
+    text-align: center;
+}
+.logo:before{
+    content: "";
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: -5%;
+    left: -5%;
+    background: inherit;
+    border-radius: 5% / 50%;
+}
+.play {
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 120px solid #fff;
+    z-index: 10px;
+    position: absolute;
+    top: 33%;
+    left: 36%;
+}

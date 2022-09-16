@@ -1,0 +1,20 @@
+body{
+  display: grid;
+  place-items: center center;
+}
+img{
+  height: 150px;
+} 
+.roll{
+  animation: roll 2s ease-out both;
+}
+@keyframes roll {
+  0%{
+    transform: translate(800px) rotate(540deg);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0) rotate(0deg);
+    opacity: 1;
+  }
+}

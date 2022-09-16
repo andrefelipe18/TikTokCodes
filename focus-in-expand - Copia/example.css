@@ -1,0 +1,41 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #e5e5e5;
+    margin-top: 20%;
+}
+.animate{  
+    font-weight: 900;
+    font-size: 22pt;
+    color: #333;
+	-webkit-animation: anima 1s linear both;
+	        animation: anima 1s linear both;
+}
+@-webkit-keyframes anima{
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes anima{
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  

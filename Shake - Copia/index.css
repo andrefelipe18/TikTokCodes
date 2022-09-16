@@ -1,0 +1,28 @@
+body{
+  font-family: 'Poppins' sans-serif;
+  display: grid;
+  place-items: center center;
+} 
+.animate{
+  animation: vibrate 0.3s linear infinite both;
+} 
+@keyframes vibrate {
+  0% {
+    transform: translate(0);
+  }
+  20%{
+    transform: translate(-10px, 10px);
+  }
+  40%{
+    transform: translate(-10px, -10px);
+  }
+  60%{
+    transform: translate(10px, 10px);
+  }
+  80%{
+    transform: translate(10px, -10px);
+  }
+  100%{
+    transform: translate(0);
+  }
+}
